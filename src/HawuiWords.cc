@@ -104,7 +104,7 @@ bool IsVowelGroup(const char& v1, const char& v2)
         for(const auto &iter:vowgrp) //error when compile, must not change the const reference
           iter = "test"; 
         for( const auto &iter:vowgrp) //correct, read only
-         std::cout << iter;   
+         std::cout << iter;    
       */
       
       for(const auto &iter:vowgrp)
