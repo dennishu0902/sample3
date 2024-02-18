@@ -105,7 +105,7 @@ bool IsVowelGroup(const char& v1, const char& v2)
           iter = "test"; 
         for( const auto &iter:vowgrp) //correct, read only
          std::cout << iter;    
-      */
+      */ 
       
       for(const auto &iter:vowgrp)
         if(str1 == iter) return true;
